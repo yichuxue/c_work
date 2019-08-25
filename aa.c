@@ -5,6 +5,7 @@
 void main()
 {   
     void csd();
+    int add(int x, int y);
     int a, b, c, d;
     unsigned u;
     a=12;b=24;u=10;
@@ -21,4 +22,9 @@ void csd()
     printf("input a character\n");
     c = getchar();
     putchar(c);
+}
+
+int add(int x, int y)
+{
+    return x + y;
 }
